@@ -13,7 +13,7 @@ import axios from 'axios'
 import { useRouter } from 'next/navigation'
 
 
-const page = () => {
+const Cadastro = () => {
 
   const [form, setForm] = useState(
     {
@@ -133,4 +133,4 @@ const page = () => {
 }
 
 
-export default page
+export default Cadastro

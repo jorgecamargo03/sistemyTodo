@@ -11,7 +11,7 @@ type props={
   token:string | null
 }
 
-const page = ({form,criarTarefa,categorias,setForm,token}:props) => {
+const Form = ({form,criarTarefa,categorias,setForm,token}:props) => {
   return (
      <div className='p-1 mt-1 flex flex-col gap-3'>
           <h2
@@ -57,4 +57,4 @@ const page = ({form,criarTarefa,categorias,setForm,token}:props) => {
   )
 }
 
-export default page
+export default Form

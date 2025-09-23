@@ -18,7 +18,7 @@ type props={
 
 
 
-const page = ({filterCategory,categorias,filterDone,setFilterdone,search,setSearch,setFiltercategory}:props) => {
+const FilterSearch = ({filterCategory,categorias,filterDone,setFilterdone,search,setSearch,setFiltercategory}:props) => {
   return (
      <div className='flex items-center'>
    
@@ -57,4 +57,4 @@ const page = ({filterCategory,categorias,filterDone,setFilterdone,search,setSear
   )
 }
 
-export default page
+export default FilterSearch;

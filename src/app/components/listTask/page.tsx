@@ -22,7 +22,7 @@ type props ={
     
 }
 
-const page = ({tasks,deleteTask,checkTask,filterCategory,filterDone,search,token}:props) => {
+const ListTask = ({tasks,deleteTask,checkTask,filterCategory,filterDone,search,token}:props) => {
   return (
       <div className=' p-1 max-h-[550px] bg-zinc-400
              scrollbar-hide
@@ -83,4 +83,4 @@ const page = ({tasks,deleteTask,checkTask,filterCategory,filterDone,search,token
   )
 }
 
-export default page
+export default ListTask

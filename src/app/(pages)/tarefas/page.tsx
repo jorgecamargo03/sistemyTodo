@@ -13,7 +13,7 @@ type Task = {
   done: boolean
 }
 
-const page = () => {
+const Tarefas = () => {
 
   const router = useRouter()
   const [tasks, setTask] = useState<Task[]>([])
@@ -226,4 +226,4 @@ useEffect(() => {
   )
 }
 
-export default page
+export default Tarefas
