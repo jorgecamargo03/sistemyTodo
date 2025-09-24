@@ -3,9 +3,9 @@ import React, { useEffect, useRef, useState } from 'react'
 import bgInicio from '../../img/bg/bg-3.jpg'
 import { useRouter } from 'next/navigation'
 import axios from 'axios'
-import FilterSearch from '../../components/FIlterSearch/page'
-import ListTask from '../../components/listTask/page'
-import CreateTask from '../../components/form/page'
+import FilterSearch from '../../components/FIlterSearch/Filtersearch'
+import ListTask from '../../components/listTask/ListTask'
+import CreateTask from '../../components/form/Form'
 type Task = {
   _id: string,
   title: string,
@@ -39,7 +39,6 @@ const Tarefas = () => {
     "Saúde",
     "Outros"
   ];
-
   useEffect(() => {
 
     const savedToken = localStorage.getItem('token')
